@@ -21,6 +21,9 @@
   ## Usage
   Run the SVG Logo maker by using node.js. Open the terminal from the file location, then type 'node index.js' in the console. The program will start and prompt the user for input.
 
+  [Video Demonstration](https://drive.google.com/file/d/1wBi3j7Og0x8t6c0mrcUTWTqHLEpckRHv/view)
+  ![screenshot](./images/logoGenerator.png)
+
   ### Notes on Usage
   - Colors
     - If you choose to use the same color for the characters and shape, you will not see the characters as they will blend in with the shape. 
