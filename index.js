@@ -63,7 +63,7 @@ function run() {
           response.shapeColor
         )
         fs.writeFile(`${folderName}/logo.svg`, shape.render(), (err) =>
-          err ? console.error(err) : console.log('\nSuccess!')
+          err ? console.error(err) : console.log('\nGenerated logo.svg! You can find your logo in the "logoFolder".\n')
         )
       } else if (response.shapes === "square") {
         const shape = new Square(
@@ -72,7 +72,7 @@ function run() {
           response.shapeColor
         )
         fs.writeFile(`${folderName}/logo.svg`, shape.render(), (err) =>
-          err ? console.error(err) : console.log('Success!')
+          err ? console.error(err) : console.log('\nGenerated logo.svg! You can find your logo in the "logoFolder".\n')
         )
       } else if (response.shapes === "triangle") {
         const shape = new Triangle(
@@ -81,7 +81,7 @@ function run() {
           response.shapeColor
         )
         fs.writeFile(`${folderName}/logo.svg`, shape.render(), (err) =>
-          err ? console.error(err) : console.log('Generated logo.svg! You can find your logo in the "logoFolder".')
+          err ? console.error(err) : console.log('\nGenerated logo.svg! You can find your logo in the "logoFolder".\n')
         )
       }
     })
