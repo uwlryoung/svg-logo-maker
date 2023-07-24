@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const {Triangle, Circle, Square} = require('./lib/logo.js');
+const {Circle, Square, Triangle} = require('./lib/logo.js');
 
 function run() {
   inquirer
